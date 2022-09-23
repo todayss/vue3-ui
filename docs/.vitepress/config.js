@@ -1,8 +1,8 @@
 export default {
+  base: "/vue3-ui/",
   title: 'vue-ui组件1',
   description: '组件ui站点',
   themeConfig: {
-    base: "/vue3-ui/",
     siteTitle: "vue-ui组件文档2",
     nav: [
       { text: 'Guide', link: '/guide' },
