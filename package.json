@@ -1,0 +1,25 @@
+{
+  "name": "vue-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pnpm -C play dev",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.9",
+    "typescript": "^4.8.2",
+    "vue": "^3.2.38"
+  },
+  "dependencies": {
+    "@carlyle_wanxiang/components": "workspace:^1.0.0",
+    "@carlyle_wanxiang/theme-chalk": "workspace:^1.0.0",
+    "@carlyle_wanxiang/utils": "^1.0.7",
+    "unplugin-vue-define-options": "^0.11.2"
+  }
+}
