@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [vue(), defineOptions()],
   resolve: {
     alias: {
-      "@carlyle_wanxiang": resolve(__dirname, "../packages")
+      "@wan-xiang": resolve(__dirname, "../packages")
     }
   }
 })

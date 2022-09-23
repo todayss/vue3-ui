@@ -4,28 +4,22 @@ importers:
 
   .:
     specifiers:
-      '@carlyle_wanxiang/components': workspace:^1.0.0
-      '@carlyle_wanxiang/theme-chalk': workspace:^1.0.0
-      '@carlyle_wanxiang/utils': ^1.0.7
+      '@wan-xiang/components': workspace:^1.0.0
+      '@wan-xiang/utils': workspace:^1.0.0
       sass: ^1.54.9
       typescript: ^4.8.2
       unplugin-vue-define-options: ^0.11.2
+      vitepress: ^1.0.0-alpha.15
       vue: ^3.2.38
     dependencies:
-      '@carlyle_wanxiang/components': link:packages/components
-      '@carlyle_wanxiang/theme-chalk': link:packages/theme-chalk
-      '@carlyle_wanxiang/utils': registry.npmmirror.com/@carlyle_wanxiang/utils/1.0.7
+      '@wan-xiang/components': link:packages/components
+      '@wan-xiang/utils': link:packages/utils
       unplugin-vue-define-options: registry.npmmirror.com/unplugin-vue-define-options/0.11.2
     devDependencies:
       sass: registry.npmmirror.com/sass/1.54.9
       typescript: registry.npmmirror.com/typescript/4.8.2
-      vue: registry.npmmirror.com/vue/3.2.38
-
-  docs:
-    specifiers:
-      vitepress: ^1.0.0-alpha.15
-    devDependencies:
       vitepress: registry.npmmirror.com/vitepress/1.0.0-alpha.15_sass@1.54.9
+      vue: registry.npmmirror.com/vue/3.2.38
 
   packages/components:
     specifiers: {}
@@ -230,12 +224,6 @@ packages:
       '@babel/helper-string-parser': registry.npmmirror.com/@babel/helper-string-parser/7.18.10
       '@babel/helper-validator-identifier': registry.npmmirror.com/@babel/helper-validator-identifier/7.19.1
       to-fast-properties: registry.npmmirror.com/to-fast-properties/2.0.0
-
-  registry.npmmirror.com/@carlyle_wanxiang/utils/1.0.7:
-    resolution: {integrity: sha512-7eafxyV/2WzksBPOYH+Riz8+uvEK5EI2Ro3Z7m5e2LkqebaUMNxsM1cNBOqC2CgiOfgI2DADZKqowbc3Zk/ONA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@carlyle_wanxiang/utils/-/utils-1.0.7.tgz}
-    name: '@carlyle_wanxiang/utils'
-    version: 1.0.7
-    dev: false
 
   registry.npmmirror.com/@docsearch/css/3.2.1:
     resolution: {integrity: sha512-gaP6TxxwQC+K8D6TRx5WULUWKrcbzECOPA2KCVMuI+6C7dNiGUk5yXXzVhc5sld79XKYLnO9DRTI4mjXDYkh+g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@docsearch/css/-/css-3.2.1.tgz}

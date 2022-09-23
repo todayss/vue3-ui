@@ -18,6 +18,8 @@
     "vue": "^3.2.38"
   },
   "dependencies": {
+    "@wan-xiang/components": "workspace:^1.0.0",
+    "@wan-xiang/utils": "workspace:^1.0.0",
     "unplugin-vue-define-options": "^0.11.2"
   }
 }

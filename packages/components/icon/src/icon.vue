@@ -1,6 +1,6 @@
 <script lang='ts' setup>
 import { reactive, computed, ref } from 'vue'
-import { createNamespace } from '@carlyle_wanxiang/utils/create';
+import { createNamespace } from '@wan-xiang/utils/create';
 import { iconProps } from './icon';
 
 defineOptions({

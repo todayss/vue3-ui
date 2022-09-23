@@ -22,7 +22,7 @@
     "skipLibCheck": true, /* Skip type checking all .d.ts files. */
     "baseUrl": ".",
     "paths": {
-      "@carlyle_wanxiang/*": [
+      "@wan-xiang/*": [
         "packages/*"
       ]
     }

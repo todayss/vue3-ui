@@ -14,7 +14,7 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@carlyle_wanxiang/*": [
+      "@wan-xiang/*": [
         "packages/*"
       ]
     }
