@@ -17,9 +17,6 @@
     "vue": "^3.2.38"
   },
   "dependencies": {
-    "@carlyle_wanxiang/components": "workspace:^1.0.0",
-    "@carlyle_wanxiang/theme-chalk": "workspace:^1.0.0",
-    "@carlyle_wanxiang/utils": "^1.0.7",
     "unplugin-vue-define-options": "^0.11.2"
   }
 }
